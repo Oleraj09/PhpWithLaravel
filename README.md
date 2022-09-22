@@ -8,6 +8,8 @@ JS
 
 PHP
 
+OOP
+
 Laravel
 
 Mysql
