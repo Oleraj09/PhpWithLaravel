@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box-one{
+	height: 200px;
+	width: 300px;
+	background-color: red;
+	border: 5px solid black;
+	color: white;
+}
+.box-two{
+	height: 200px;
+	width: 300px;
+	background-color: blue;
+	border: 5px;
+	color: white;
+}
+.box-design{
+	background: green;
+	width: auto;
+	height: 300px;
+/*	display: flex;
+	justify-content: center;
+	padding-top:130px;*/
+	
+}
+.box-design:hover{
+	background: darkred;
+	width: auto;
+	height: 300px;
+	cursor: pointer;
+	transform: scale(2.0);
+	transition: 2s;
+}
+.box-design button{
+	background-color: blue;
+	height: 50px;
+	width: 200px;
+	border: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	margin-top: 130px;
+	margin-left: 40%;
+}
