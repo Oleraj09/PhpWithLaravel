@@ -1,0 +1,25 @@
+.content{
+	height: 400px;
+	width: 400px;
+	background: red;
+	position: relative;
+	/*position declear to hide overflow
+	Position must relative and absoulate*/
+}
+/*.btn{
+	height: 100px;
+	width: 100px;
+	background: green;
+	margin-top: 100px;
+	margin-left: 100px;
+	position: relative;
+}*/
+.problem{
+	height: 100px;
+	width: 100px;
+	background: green;
+	/*margin-top: 100px;
+	margin-left: 100px;*/
+	position: absolute;
+	bottom: 0px;
+}

@@ -1,0 +1,98 @@
+/*@media screen and (max-width: 320px){
+	.res1{
+		display: none;
+	}
+	.two{
+		height: 100px;
+		width: 100%;
+		border: 2px solid green;
+		float: left;
+	}
+}
+@media only screen and (min-width: 321px) and (max-width: 760px){
+	.res1{
+		height: 100px;
+		width: 100%;
+		float: left;
+		border: 2px solid yellow;
+	}
+	.two{
+		height: 100px;
+		width: 100%;
+		border: 2px solid green;
+		float: left;
+	}
+}
+@media only screen and (min-width: 761px) and (max-width: 1366px){
+	.res1{
+		height: 100px;
+		width: 30%;
+		float: left;
+		border: 2px solid blue;
+	}
+}*/
+
+/*@media only screen and (min-width: 320px) and (max-width: 760px){
+	.content{
+		height: 100px;
+		width: 100%;
+		float: left;
+		border: 2px solid red;
+
+	}
+	.problem{
+		height: 100px;
+		width: 100%;
+		border: 2px solid green;
+		float: left;
+	}
+	.s1{
+		border: 2px solid red;
+		width: 100%;
+		height: 350px;
+		float: left;
+	}
+	.s2{
+		border: 2px solid green;
+		width: 100%;
+		height: 350px;
+		float: left;
+	}
+	.footer{
+		border: 2px solid green;
+		width: 100%;
+		height: 100px;
+		float: left;
+	}
+}
+*/
+@media only screen and (min-width: 761px) and (max-width: 1200px){
+	.content{
+		height: 100px;
+		width:50%;
+		float: left;
+		border: 2px solid red;
+
+	}
+	.problem{
+		height: 100px;
+		width:50%;
+		border: 2px solid green;
+		float: left;
+	}
+	.s1{
+		border: 2px solid red;
+		width:50%;
+		height: 350px;
+		float: left;
+	}
+	.s2{
+		border: 2px solid green;
+		width:50%;
+		height: 350px;
+		float: left;
+	}
+	.footer{
+		display: none;
+	}
+}
