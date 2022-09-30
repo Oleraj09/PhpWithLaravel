@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chorki :: Class 07</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+    <style>
+    *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+    border: 1px solid black;
+}
+
+[class*="col-"]{
+	float: left;
+    padding-left:10px;
+	/* border: 1px solid black;*/
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.32%;}
+.col-5{width: 41.65%;}
+.col-6{width: 50%;}
+.col-7{width: 58.31%;}
+.col-8{width: 66.64%;}
+.col-9{width: 75%;}
+.col-10{width: 83.3%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
+
+.items{
+	padding-left: 35px;
+}
+.header{
+	height: 1000px;
+}
+.photo{
+	height: 250px;
+}
+.contact{
+	height: 200px;
+}
+.skill{
+	height: 300px;
+}
+.project{
+	height: 250px;
+}
+.title{
+	height: 150px;
+	padding: 40px 90px;
+}
+.icon{
+	height: 50px;
+}
+.about{
+	height: 200px;
+}
+.education{
+	height: 350px;
+}
+.experience{
+	height: 250px;
+}
+img{
+	border-radius:50%; 
+    height:100%; 
+    width:100%;
+}
+.iconh{
+	height:50px;
+    padding-left:30px;
+}
+.bgc{
+	background: darkgray;
+}
+h1{
+	text-align:center;
+}
+.c{
+	text-align:center;
+}
+/*Sudo element to show extra information*/
+.row:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+    </style>
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<div class="col-4 header bgc">
+        	<div class="col-12 photo">
+            	<img src="https://i.ibb.co/bQpRG4q/IMG-20220825-093953-374.jpg" alt="Oleraj Hossin">
+            </div>
+            <div class="col-12 contact">
+            	<h2>CONTACT</h2><hr>
+				<p>PHONE</p>
+				<p>+8801781886507</p>
+				<p>EMAIL</p>
+				<p>olerajhossin@gmail.com</p>
+				<p>ADRESS</p>
+				<p>Mirpur-2, Dhaka</p><br>
+            </div>
+            <div class="col-12 skill">
+            	<h2>SKILL</h2><hr>
+				<div class="col-12 items">
+                	<ul>
+					<li>HTML/CSS/JS/Bootstrap</li>
+					<li>React/Nodejs/MongoDB</li>
+					<li>PHP/MySQL/OOP</li>
+					<li>C/C++/C#</li>
+					<li>Algorithm and Data Structure</li>
+					<li>Problem Solving</li>
+					<li>Git and Github</li>
+				</ul>
+                </div>
+            </div>
+            <div class="col-12 project">
+            	<h2>PROJECT</h2><hr>
+				<p>Movie Streaming<br>NOFStudio - A Online Movie Streaming Website using HTML, CSS, JS, PHP, Mysql</p>
+				<p>Airlines Booking<br>Digital Airlience - A CRUD Project using C# and SQL.</p>
+            </div>
+        </div>
+        <div class="col-8 header">
+        	<div class="col-12 title">
+            	<h1>OLERAJ HOSSIN</h1>
+				<p class="c">Software Engineer</p>
+            </div>
+            <div class="col-12 icon">
+            	<div class="col-3 iconh">✪</div>
+                <div class="col-3 iconh">✪</div>
+                <div class="col-3 iconh">✪</div>
+                <div class="col-3 iconh">✪</div>
+            </div>
+            <div class="col-12 about">
+            	<h2>ABOUT ME</h2><hr>
+				<p>To be able to work in a highly organized environment and contribute my expertise and knowledge as a software engineer. 
+Also Self Motivated, hard- working, creative, and looking for a challenging role to apply my developing skill, and problem analytic knowledge for the growth of the organization.</p>
+            </div>
+            <div class="col-12 education">
+            	<h2>EDUCATION</h2><hr>
+				<h3>Bangladesh University of Business and Technology<br><i>B.Sc in Computer science & Engineering</i></h3>
+				<p>Currently Enrolling in 10'th Semister, obtaing CGPA 3.54<br> Expected Graduation year February 2023</p>
+				<h3>Kayra High School & College, Ullarapa<br>
+				<i>Higher Secondary School Certificate</i></h3>
+				<p>GPA 4.08 out of 5.00<br> HSC completed in 2018</p>
+				<h3>Kayra High School & College, Ullarapa<br>
+				<i>Secondary School Certificate</i></h3>
+				<p>GPA 4.08 out of 5.00<br> HSC completed in 2018</p>
+            </div>
+            <div class="col-12 experience">
+            	<h2>EXPERIENCE</h2><hr>
+				<h3>Web design & Development - Beginner Level</h3>
+				<p>Learning Front end Development using HTML, CSS, JS, React JS. For Server Side Learning Python, Django, MySQL, NodeJS, MongoDB. Also Knowledge At Php and Laravel Framework.</p>
+				<h3>Competitive Programming -  Standard</h3>
+				<p>Started Competitive Programming in 2020, and have standard Knowledge in algorithms and data structure. Also solved 250+ problems in various online judges. 
+Participate in Two Intra University Competitive Programming contests and achieve standard standing</p>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
