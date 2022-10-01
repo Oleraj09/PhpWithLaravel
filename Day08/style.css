@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	padding: 200px 0;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.double{
+	width: 70%;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.one{
+    float: left;
+	width: 50%;
+	height: 400px;
+	border: 1px solid red;
+}
+.two{
+	float: left;
+	height: 400px;
+	width: 50%;
+	border: 1px solid red;
+}
+.lower{
+	width: 70%;
+	height: 50px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
