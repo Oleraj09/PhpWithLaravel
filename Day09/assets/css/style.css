@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.three{
+	height: auto;
+	width: 200px;
+	margin-top: 100px;
+	background: black;
+	color: white;
+	overflow: hidden;
+}
+/* selector to specify*/
+.one > .two > .three > p{
+	margin-top: 0px;
+}
+
+.one + div{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.one + div > div > div {
+	height: 200px;
+	width: 200px;
+	background: red;
+	color: white;
+	overflow: hidden;
+}
+.one + div > div > div > h4{
+	margin-top: 90px;
+}
+
+.services{
+	height: 40px;
+	background: green;
+}
+p{
+	padding-top: 10px;
+}
+ol > li{
+	background: red;
+}
+ol > li:nth-child(3){
+	background: gray;
+}
+
+/*.one, .two, .three{
+	height: 200px;
+	width: 200px;
+	background: green;
+}
+div[align]{
+	background: red;
+}
+div[val]{
+	background: gray;
+}*/
