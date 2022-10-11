@@ -1,0 +1,16 @@
+{
+  "name": "day11/day11",
+  //  Mustbe small letter
+  "type": "project",
+  "description": "Php Frist Project",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//",
+      //Must be App and folder name app
+    }
+  }
+}
