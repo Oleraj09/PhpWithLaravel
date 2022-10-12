@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.slider img{
+	height: 400px;
+	width: 100%;
+}
+
+.cards .style-h4{
+	color: blueviolet;
+}
+.c-position{
+	top: 35%;
+}
