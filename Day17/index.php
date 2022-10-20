@@ -1,8 +1,5 @@
 <?php
-    if($_POST['fname']==NULL && $_POST['lname']==NULL){
-        echo "Nothing to show!";
-    }
-    else{
+    if(isset($_POST['fname']) && isset($_POST['lname'])){
         echo "Full Name is: ";
         echo $fristname = $_POST['fname']; 
         echo " ";
