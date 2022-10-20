@@ -1,0 +1,89 @@
+:root{
+    --p-color: red;
+    --s-color: black;
+    --t-color: white;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    height: 100px;
+}
+.nav-item{
+    padding-left: 0 0 0 5px;
+}
+.nav-link{
+    color: var(--s-color);
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 25px !important;
+}
+.nav-link:hover{
+    /* text-transform: uppercase; */
+    display: block;
+    background: var(--p-color);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px !important;
+}
+.btn-style-own{
+    color: var(--t-color);
+    padding: 10px 20px;
+    border: none;
+    background: var(--p-color);
+    border-radius: 25px;
+}
+.btn-style-own:hover{
+    color: var(--t-color);
+    padding: 10px 20px;
+    border: none;
+    background: rgb(84, 88, 81);
+    border-radius: 25px;
+    transition: 1s;
+
+}
+.links{
+    color: white;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 25px !important;
+    text-decoration: none;
+}
+.links:hover{
+    color: white;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 25px !important;
+    text-decoration: none;
+}
+.sizepic > img{
+    height: 300px;
+    width: 100%;
+}
+.card > img{
+    height: 350px;
+}
+.navbar{
+    background: white !important;
+}
+.card > img{
+    height: 350px;
+}
+.image-s > img{
+    height: 250px;
+}
+span {
+    content: "\2B50";
+}
+#footer{
+    height: 300px;
+    background: rgb(31, 29, 29);
+}
+.text-justify{
+    text-align: justify;
+}
