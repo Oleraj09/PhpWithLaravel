@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --back: #FFFFFF;
+    --front: #163C0D;
+    --hovers: #343434;
+    --frontx: #1b7206;
+    --p-color: red;
+    --s-color: black;
+    --t-color: white;
+    --title: 'Mochiy Pop P One', sans-serif;
+    --normal: 'Poppins', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Mochiy Pop P One', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    height: 80px;
+    background: #FFFFFF !important;
+}
+.navbar{
+    height: 80px;
+    padding: 0;
+}
+.container{
+    height: 80px;
+    padding: 0;
+}
+.navbar-collapse {
+    height: 80px;
+}
+.size{
+    height: 80px;
+    padding-top: 3%;
+    background: var(--front);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.size .nav-link{
+    color: #FFFFFF !important;
+}
+.nav-item{
+    padding-top: 3% !important;
+    padding-left: 10px !important;
+}
+.text-bold{
+    font-weight: 600;
+}
+#display-section{
+    background: url('../../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.display-mask{
+    height: 80vh;
+    background: var(--hovers);
+    opacity: 85%;
+}
+.display-item{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding: 150px;
+}
+.mybutton{
+    margin-left: -40px;
+    border: none;
+    background: none;
+}
+.search > input{
+    border: 3px solid rgb(211, 83, 23);
+}
+.search > input:hover{
+    border: 3px solid var(--frontx);
+}
+
+.image-s > img{
+    height: 280px;
+}
+
+.btn-style-own{
+    color: var(--t-color);
+    padding: 10px 20px;
+    border: none;
+    background: var(--p-color);
+    border-radius: 25px;
+}
+.btn-style-own:hover{
+    color: var(--t-color);
+    padding: 10px 20px;
+    border: none;
+    background: rgb(84, 88, 81);
+    border-radius: 25px;
+    transition: 1s;
+
+}
+.links{
+    color: white;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 25px !important;
+    text-decoration: none;
+}
+
+#product-more{
+    height: 900px;
+}
+
+.footer-top{
+    background: var(--front);
+    height: 400px;
+}
+.fuck > .nav-item {
+    padding-top: 0% !important;
+    padding-left: 10px !important;
+}
+.footer-bottom{
+    border-top: 2px solid var(--hovers) !important;
+    height: 100px;
+    background: var(--front) !important;
+}
