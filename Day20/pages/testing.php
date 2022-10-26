@@ -38,7 +38,8 @@
                         Services
                         </a>
                         <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\"> ";
-                          for($i=0;$i<4;$i++){
+                          $fuck = count(array_keys($m['name'][1]));
+                          for($i=0;$i<$fuck;$i++){
                             echo "<li><a class=\"dropdown-item\" href=\"#\">{$m['name'][1][$i]}</a></li>";
                           }
                         echo "  
@@ -53,7 +54,8 @@
                         Projects
                         </a>
                         <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\"> ";
-                          for($i=0;$i<3;$i++){
+                          $fuck = count(array_keys($m['name'][1]));
+                          for($i=0;$i<$fuck;$i++){
                             echo "<li><a class=\"dropdown-item\" href=\"#\">{$m['name'][1][$i]}</a></li>";
                           }                       
                           echo " 
