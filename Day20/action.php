@@ -10,7 +10,8 @@ if(isset($_GET['page'])){
 
         $allmenu = new menu();
         $menus = $allmenu->menu(); 
-        include 'pages/home.php';
+        include 'pages/testing.php';
+        // include 'pages/home.php';
     }
     else{
         echo "Error! Page Doesn't matched.";
