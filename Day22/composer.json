@@ -1,0 +1,14 @@
+{
+    "name": "task/task",
+    "type": "project",
+    "description": "Include page and Get Request of page also data acess in frontend",
+    "keywords": [],
+    "license": "",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app//"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --back: #FFFFFF;
+    --front: #163C0D;
+    --hovers: #343434;
+    --frontx: #1b7206;
+    --p-color: red;
+    --s-color: black;
+    --t-color: white;
+    --title: 'Mochiy Pop P One', sans-serif;
+    --normal: 'Poppins', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Mochiy Pop P One', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.Calculator{
+    margin-top: 100px;
+}
+.container{
+    height: 470px;
+    /* border-radius: 1%; */
+    width: 60% !important;
+}
+.title:hover{
+    color: burlywood;
+    transform: scale(1.1);
+    transition: all 2s;
+}
+.card{
+    border: none !important;
+    background: #343434;
+    border-radius: 1%;
+}
+.card-body{
+    background: #343434;
+}
+.result-btn{
+    /* position: absolute; */
+    justify-content: center;
+    background: #1b7206;
+    width: 50%;
+    padding: 1px 0px;
+    margin-left: 25%;
+
+}
+.cal-body{
+    /* position: relative; */
+    background: #343434;
+}
+.text-left{
+    text-align: left;
+}
+.mybutton{
+    background: #163C0D;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    color: #FFFFFF;
+}
+.mybutton:hover{
+    background: #1b7206;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    color: #FFFFFF;
+    transition: all 2s;
+}

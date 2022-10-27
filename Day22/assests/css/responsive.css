@@ -1,0 +1,24 @@
+@media only screen and (max-width: 991px) {
+    .navbar-nav{
+      background-color: var(--frontx) !important;
+      color: white;
+    }
+    .text-bold{
+        color: white;
+        font-weight: 400;
+    }
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 992px){
+    .pe-3{
+        
+        padding-top: 3% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+  }
+  @media only screen and (max-width: 776px) {
+    .display-item{
+        font-family: 'Mochiy Pop P One', sans-serif;
+        padding: 50px;
+    }
+  }
