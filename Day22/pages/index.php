@@ -1,30 +1,35 @@
 <?php
-    $fristvalue = $_POST['fvalue'];
-    $secondvalue = $_POST['svalue'];
-    $select = $_POST['selecteq'];
-    $results='';
-    if(isset($fristvalue) && isset($secondvalue) && isset($select)){
-            switch ($select) {
-                case "Summation":
-                    $results = $fristvalue + $secondvalue;
-                break;
-                case "Substraction":
-                    $results = $fristvalue - $secondvalue;
-                break;
-                case "Miltiplication":
-                    $results = $fristvalue * $secondvalue;
-                break;
-                case "Division":
-                    $results = $fristvalue / $secondvalue;
-                break;
-                case "Modulus":
-                    $results = $fristvalue % $secondvalue;
-                break;
-            }
+if (isset($_POST['submit'])) {
+    // Check number values
+    if (is_numeric($_POST['number1']) && is_numeric($_POST['number2'])) {
+        // Calculate total
+        if ($_POST['operation'] == 'summation') {
+            $total = $_POST['number1'] + $_POST['number2'];
         }
+        if ($_POST['operation'] == 'substraction') {
+            $total = $_POST['number1'] - $_POST['number2'];
+        }
+        if ($_POST['operation'] == 'multiplication') {
+            $total = $_POST['number1'] * $_POST['number2'];
+        }
+        if ($_POST['operation'] == 'division') {
+            $total = $_POST['number1'] / $_POST['number2'];
+        }
+        if ($_POST['operation'] == 'modulus') {
+            $total = $_POST['number1'] % $_POST['number2'];
+        }
+
+    } else {
+
+        // Print error message to the browser
+        echo 'Numeric values are required';
+    }
+}
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,6 +38,7 @@
     <link rel="stylesheet" href="assests/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="assests/css/styles.css">
 </head>
+
 <body>
     <menu>
         <section class="Calculator">
@@ -46,20 +52,24 @@
                 <div class="card text-center pb-2">
                     <div class="card-body pb-3">
                         <div class="result-btn">
-                            <p class="pt-3">Result is : <span style="color:red"><?php echo $results ?></span></p>
+                            <p class="pt-3">Result is : <span style="color:red"><?php
+                            if(isset($total)){
+                                echo $total;
+                            }
+                            ?></span></p>
                         </div>
                         <div class="cal-body pt-3">
-                            <form action="POST">
-                                <input type="text" name="fvalue" placeholder="Enter Frist Value" class="w-50 py-2 mb-2"><br>
-                                <input type="text" name="svalue" placeholder="Enter Second Value" class="w-50 py-2 mb-2"><br>
-                                <select value="selecteq" class="w-50 py-2 mb-2">
-                                    <option value="Summation">Summation</option>
-                                    <option value="Substraction">Substraction</option>
-                                    <option value="Miltiplication">Miltiplication</option>
-                                    <option value="Division">Division</option>
-                                    <option value="Modulus">Modulus</option>
+                            <form method="POST">
+                                <input type="text" name="number1" placeholder="Enter Frist Value" class="w-50 py-2 mb-2"><br>
+                                <input type="text" name="number2" placeholder="Enter Second Value" class="w-50 py-2 mb-2"><br>
+                                <select name="operation" class="w-50 py-2 mb-2">
+                                    <option value="summation">Summation</option>
+                                    <option value="substraction">Substraction</option>
+                                    <option value="multiplication">Miltiplication</option>
+                                    <option value="division">Division</option>
+                                    <option value="modulus">Modulus</option>
                                 </select><br>
-                                <input class="mybutton w-50 py-3 mb-2" type="button" value="Find Solution">
+                                <input class="mybutton w-50 py-3 mb-2" name="submit" type="submit" value="Find Solution">
                             </form>
                         </div>
                     </div>
@@ -68,6 +78,7 @@
         </section>
     </menu>
 
-<script src="/assests/bootstrap/bootstrap.bundle.js"></script>
+    <script src="/assests/bootstrap/bootstrap.bundle.js"></script>
 </body>
+
 </html>
