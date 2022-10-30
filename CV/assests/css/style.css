@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --left: #283444;
+    --right: #FFFFFF;
+    --lt-color: #FFFFFF;
+    --rt-color: #000000;
+    --title: 'Mochiy Pop P One', sans-serif;
+    --normal: 'Poppins', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: wheat;    
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 70% !important;
+    margin-top: 10% !important;
+}
+.cv{
+    border: 1px solid wheat;
+}
+.spaceing{
+    padding-left: 15px;
+    padding-right: 15px ;
+}
+.bg-p{
+    background: var(--left);
+    color: var(--lt-color);
+}
+.bg-s{
+    background: var(--right);
+    color: var(--rt-color);
+}
+.item1 > img{
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.item2 > h1{
+    position: relative;
+}
+.item2 > h1:before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 3px;
+    background: #FFFFFF;
+    left: 0px;
+    bottom: -10px;
+    position: absolute;
+}
+.item3 > h1{
+    position: relative;
+}
+.item3 > h1:before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 3px;
+    background: #FFFFFF;
+    left: 0px;
+    bottom: -10px;
+    position: absolute;
+}
+.item4 > h1{
+    position: relative;
+}
+.item4 > h1:before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 3px;
+    background: #FFFFFF;
+    left: 0px;
+    bottom: -10px;
+    position: absolute;
+}
+.items{
+    padding-top: 10px;
+}
+.text-bold{
+    font-weight: 600;
+}
+.red{
+    text-decoration: none;
+    color: red;
+}
+.green{
+    text-decoration: none;
+    color: blue;
+}
+.titles{
+    margin: 70px;
+}
+.font{
+    font-size: 20px;
+}
+.text-bolder{
+    font-weight: 900;
+}
+.text-lights{
+    font-weight: 400;
+}
+.about-me > h1{
+    position: relative;
+}
+.about-me > h1::before{
+    content: "";
+    display: block;
+    width: 500px;
+    height: 3px;
+    background: #000000;
+    left: 0px;
+    bottom: -10px;
+    position: absolute;
+}
+.education > h1{
+    position: relative;
+}
+.education > h1::before{
+    content: "";
+    display: block;
+    width: 500px;
+    height: 3px;
+    background: #000000;
+    left: 0px;
+    bottom: -10px;
+    position: absolute;
+}
+.experience > h1{
+    position: relative;
+}
+.experience > h1::before{
+    content: "";
+    display: block;
+    width: 500px;
+    height: 3px;
+    background: #000000;
+    left: 0px;
+    bottom: -10px;
+    position: absolute;
+}
+.one{
+    padding-left: 20px;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-t{
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 2px;
+}
