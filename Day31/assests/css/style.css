@@ -1,0 +1,25 @@
+.navbar{
+    height: 70px !important;
+}
+.title{
+    height: 70px;
+    padding-top: 2%;
+}
+
+.container{
+    padding-top: 3%;
+}
+.slider {
+    height: auto;
+    padding: 20px 15%;
+}
+hr{
+    border: 1px solid wheat;
+}
+.link{
+    text-decoration: none;
+    color: rgb(178, 178, 245);
+}
+.btn{
+    padding: 10px 20px;
+}
